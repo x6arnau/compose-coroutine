@@ -65,5 +65,6 @@ fun FetchComposable() {
 
 suspend fun fetchData(): List<String> {
     // Simula una operació de xarxa que tarda molt de temps en completar-se
+    delay(5000)
     return listOf("Data 1", "Data 2", "Data 3")
 }
